@@ -1,0 +1,27 @@
+.footer-container{
+    position: relative;
+}
+.footer-container>hr{
+    border: 1 px solid orange;
+}
+
+.footer{
+    padding: 1rem 2 rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+
+
+.footer>IMG{
+    width: 10rem;
+}
+.logo-f>img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 34px;
+    width: 10rem;
+}

@@ -1,0 +1,193 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.blur{
+    background-color: rgba(235, 108, 35, 0.49);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(212px);
+    z-index: -9;
+}
+.best{
+    margin-top: 4rem;
+    background-color: #282b2e;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.best>span{
+    z-index: 2;
+}
+.bili{
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    
+}
+.text>div:nth-child(3){
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+.best>div{
+    position: absolute;
+    background-color: orange;
+    width: 5.4rem;
+    z-index: 1;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+}
+.left-h{
+    padding: 2rem;
+    padding-top: 1rem;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.right-h{
+    flex: 1;
+    background-color: orange;
+    position: relative;
+}
+
+.figure{
+    display: flex;
+    gap: 2rem;
+
+}
+.figure>div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hert-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: darkgray;
+    width: fit-content;
+    padding: 1rem;
+    align-items: start;
+    border-radius: 4px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+}
+.hert-rate>img{
+    width: 2rem ;
+}
+
+.calories{
+    display: flex;
+    gap: 2rem;
+    border-radius: 5px;
+    background-color: rgb(44, 48, 47);
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 33rem;
+    right: 28rem;
+
+}
+.hero-blur{
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+
+}
+.calories>div>:nth-child(1){
+    color: rgb(127, 106, 106);
+}
+.calories>div>:nth-child(2){
+    color: white;
+    font-size: 1.5rem;
+}
+.calories>img{
+    width: 3rem;
+}
+.calories>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hert-rate:nth-child(2){
+    color: rgb(0, 0, 0);
+}
+.hert-rate:nth-child(3){
+    color: white;
+    font-size: 1.5rem;
+}
+.hero-img{
+        position: absolute;
+        right: 8rem;
+        top: 10rem;
+        width: 23rem;
+        
+}
+
+
+.figure>div>span:nth-child(1){
+    color: white;
+    font-size: 2rem;
+}
+.figure>div>span:nth-child(2){
+    color: gray;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: white;
+    padding: 0.5rem;
+    border: 4px solid transparent;
+    transition: 300ms all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-h>.btn{
+    position: absolute;
+    right: 3rem;top: 2rem;color: black;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.hero-button{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+.hero-button>:nth-child(1){
+    color: white;
+    background-color: orange;
+    width: 8rem;
+}
+.hero-button>:nth-child(2){
+    color: white;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid orange;
+}

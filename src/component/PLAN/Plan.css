@@ -1,0 +1,79 @@
+.plans{
+    display: flex;
+    flex-direction: row;
+    text-align: center ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.plan-blur-1{
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0rem;
+}
+.plan-blur-2{
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 0rem;
+}
+.blur{
+
+        background-color: rgba(254, 120, 343, 0.69);
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(212px);
+        z-index: -9;
+    
+}
+
+.plan1{
+    display: flex;
+
+    flex-direction: column;
+    width: 20rem;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    background-color: rgb(102, 97, 87);
+    gap: 1rem;
+    border: 1px solid saddlebrown;
+}
+.plan2{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 25rem;
+    background-color:rgb(227, 175, 78) ;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    
+    gap: 1rem;
+    border: 1px solid saddlebrown;
+}
+.plan3{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    background-color: rgb(102, 97, 87);
+    gap: 1rem;
+    border: 1px solid saddlebrown;
+}
+.bb:hover{
+cursor: pointer;
+background-color: orange;
+}
+.bb{
+    padding: 10px 5px 10px 1px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2ps solid blue;
+    position: relative;
+    left: 7rem;
+    padding-bottom: 10px;
+    margin-bottom: 23px;
+    border: 2px solid green;
+    width: 6rem;
+}
